@@ -13,7 +13,7 @@ const props = defineProps({
 });
 
 const img = inject("specialUploadImage");
-const url = ref(img.length ? img : props.customImage);
+const url = ref(img?.length ? img : props.customImage);
 function uploadFile(event) {
   const target = event.target;
   const file = target.files[0];

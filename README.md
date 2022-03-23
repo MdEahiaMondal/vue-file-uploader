@@ -17,10 +17,12 @@ no you need to use this component
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import SpecialUploader from "vue-file-upload-preview/dist/vue-file-upload-preview.common";
+import SpecialUploader from "vue-file-upload-preview";
+#if you need default css
+require('vue-file-upload-preview/dist/vue-file-upload-preview.css') 
 
 const app = createApp(App)
-app.use(SpecialUploader, { img: '' })
+app.use(SpecialUploader)
 app.mount('#app')
 ```
 
