@@ -1,0 +1,60 @@
+{
+  "name": "vue-file-upload-preview",
+  "description": "A simple vuejs file upload and preview plugin",
+  "version": "0.1.0",
+  "private": false,
+  "author": {
+    "name": "Eahiya Khan",
+    "email": "mdeahiamondal@gmail.com"
+  },
+  "repository": "",
+  "bugs": "",
+  "keywords": [
+    "file-upload",
+    "vue",
+    "preview"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name vue-file-upload-preview ./src/main-entry.js",
+    "lint": "vue-cli-service lint"
+  },
+  "main": ".dist/vue-file-upload-preview.common.js",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.11",
+    "@vue/cli-plugin-eslint": "~4.5.11",
+    "@vue/cli-service": "~4.5.11",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
