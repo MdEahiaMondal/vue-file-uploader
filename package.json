@@ -7,8 +7,8 @@
     "name": "Eahiya Khan",
     "email": "mdeahiamondal@gmail.com"
   },
-  "repository": "",
-  "bugs": "",
+  "repository": "https://github.com/MdEahiaMondal/vue-file-uploader",
+  "bugs": "https://github.com/MdEahiaMondal/vue-file-uploader/issues",
   "keywords": [
     "file-upload",
     "vue",
@@ -24,7 +24,7 @@
     "build-library": "vue-cli-service build --target lib --name vue-file-upload-preview ./src/main-entry.js",
     "lint": "vue-cli-service lint"
   },
-  "main": ".dist/vue-file-upload-preview.common.js",
+  "main": "/dist/vue-file-upload-preview.common",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
