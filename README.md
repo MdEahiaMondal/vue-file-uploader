@@ -2,7 +2,7 @@
 Easy to use, highly customizable Vue File Upload Preview library.
 
 # How to use
-first need to install 
+First you need to install this packege using ```npm``` or ```yarn``` 
 ```
 npm i vue-file-upload-preview
 ```
@@ -11,7 +11,7 @@ or
 yarn add vue-file-upload-preview
 ```
 
-no you need to use this component
+Now you need to use this component on your app directory
 
 ```
 import { createApp } from 'vue'
@@ -26,7 +26,7 @@ app.use(SpecialUploader)
 app.mount('#app')
 ```
 
-finaly use this component in your template
+Finaly use this component in your template
 ```
 <template>
   <div>

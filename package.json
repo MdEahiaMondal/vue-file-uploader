@@ -1,7 +1,7 @@
 {
   "name": "vue-file-upload-preview",
   "description": "A simple vuejs file upload and preview plugin",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "private": false,
   "author": {
     "name": "Eahiya Khan",
