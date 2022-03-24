@@ -1,4 +1,4 @@
-import { SpecialUploader } from './components'
+import { SpecialUploader } from '@/components'
 
 export default {
     install: (app, options) => {
@@ -12,5 +12,4 @@ export default {
         })
     },
 };
-
 export { SpecialUploader };

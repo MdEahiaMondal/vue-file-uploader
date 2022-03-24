@@ -7,17 +7,18 @@
 </template>
 
 <script setup>
-import { ref, inject, defineProps } from "vue";
+import { ref, inject, defineProps, defineEmits } from "vue";
 const props = defineProps({
   customImage: String,
 });
-
+const emit = defineEmits(["fileChange"]);
 const img = inject("specialUploadImage");
 const url = ref(img?.length ? img : props.customImage);
 function uploadFile(event) {
   const target = event.target;
   const file = target.files[0];
   fileProcess(file);
+  emit("fileChange", file);
 }
 function fileProcess(file) {
   url.value = URL.createObjectURL(file);

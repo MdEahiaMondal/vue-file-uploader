@@ -1,10 +1,18 @@
 <template>
-  <SpecialUploader customImage="https://picsum.photos/1000/1000" />
+  <SpecialUploader
+    @fileChange="fileChange"
+    customImage="https://picsum.photos/1000/1000"
+  />
 </template>
 
 <script>
 export default {
   name: "App",
+  methods: {
+    fileChange(data) {
+      console.log(data);
+    },
+  },
 };
 </script>
 
